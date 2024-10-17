@@ -8,8 +8,9 @@ return [
     'middleware' => ['web'],
     'prompt' => 'Or Login Via',
     'providers' => [
-        Providers::github(),
         Providers::google(),
+        Providers::facebook(),
+        Providers::twitter()
     ],
     'features' => [
         Features::generateMissingEmails(),
