@@ -19,7 +19,7 @@ use Overtrue\LaravelFollow\Traits\Followable;
 use Overtrue\LaravelSubscribe\Traits\Subscriber;
 use Overtrue\LaravelSubscribe\Traits\Subscribable;
 use Overtrue\LaravelVote\Traits\Voter;
-use Overtrue\LaravelVote\Traits\Voteable;
+use Overtrue\LaravelVote\Traits\Votable;
 use Spatie\Activitylog\Traits\LogsActivity;
 use Spatie\Activitylog\LogOptions;
 
@@ -39,7 +39,6 @@ class User extends Authenticatable implements HasMedia, MustVerifyEmail
     use Subscriber;
     use Subscribable;
     use Voter;
-    use Voteable;
     use LogsActivity;
 
     /**
