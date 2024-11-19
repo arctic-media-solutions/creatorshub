@@ -17,8 +17,8 @@ export default function GuestLayout({ children }) {
 
     return (
         <div className="min-h-screen flex flex-col lg:flex-row">
-            <div className="flex-1 flex flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24 bg-gray-100 dark:bg-gray-900">
-                <div className="mx-auto w-full max-w-sm lg:w-96">
+            <div className="flex-1 flex flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24 bg-gray-100 dark:bg-gray-900 lg:w-1/2">
+                <div className="mx-auto w-full max-w-lg">
                     <div className="flex justify-center lg:justify-start">
                         <Link href="/">
                             <ApplicationLogo className="h-20 w-20 fill-current text-gray-500" />
